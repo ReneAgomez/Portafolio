@@ -1,41 +1,225 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 body{
-    font-family:'Courier New', Courier, monospace;
-    background-color:white;
-    margin:0;
+    font-size: 25px;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+video{
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+
+    top:50%;
+    left:50%;
+
+    transform: translatex(-50%) translateY(-50%);
+
+    z-index: -1
+}
+
+.nombre {
     padding:0;
-    color:black;
+    display: flex;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    margin-top:250px;
+  
 }
 
 h1{
-    text-align:center;
-    display:flex;
-    margin-top:225px;
-    margin-left:350px;
+    justify-content: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: aqua;
+    color:black;
 }
 
 nav ul{
+    align-items: center;
     display:flex;
     justify-content:center;
     list-style:none;
     padding:0;
+    margin-top:0;
+    margin-bottom:0;
 }
 
 nav ul li{
-    margin:10px
+    margin:10px;
+    margin-top:8;
+    
 }
 
 nav ul li a{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: aqua;
     color:black;
     text-decoration:none;
     font-weight:bold;
 }
 
 ul li a:hover{
-    color:crimson;
+    color:white;
 }
+
+.titulo{
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    margin-top:225px;
+    color:black;
+}
+.descripcion{
+    font-size:22.5px;
+    text-align: center;
+    color:aqua;
+}
+
+.section-content h2{
+    font-size:40px;
+    margin-bottom:45px;
+    margin-top:10px;
+}
+h2{
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: aqua;
+    color:black;
+}
+.card-container{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    padding:0;
+    margin:10px;
+}
+
+.card-1{
+    text-align: center;
+    position: relative;
+    width: 30%;
+    margin:50px;
+    margin-top: 0;
+    border:3px solid #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    color:aqua;
+    
+}
+
+.card-2{
+    text-align: center;
+    position: relative;
+    width: 30%;
+    margin: 50px;
+    margin-top: 0;
+    border:3px solid #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    color:aqua;
+    
+}
+
+.card-3{
+    text-align: center;
+    position: relative;
+    width: 30%;
+    margin: 50px;
+    margin-top: 0;
+    border:3px solid #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    color:aqua;
+}
+
+.pie1{
+    text-align: center;
+    color:aqua;
+    margin-top: 17%;
+}
+
+.pie2{
+    text-align: center;
+    color:aqua;
+    margin-top:13.5%;
+}
+
+.pie3{
+    text-align: center;
+    color:aqua;
+    margin-top:3%;
+}
+
+.pie4{
+    text-align: center;
+    color:aqua;
+    margin-top:6%;
+}
+
+.form-container {
+    border:3px solid #fff;
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    margin-left: 25%;
+  }
+
+  .map{
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+
+  label {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: aqua;
+    color:black;
+    font-weight: bold;
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    margin-top:10px;
+    margin-bottom: 0.5rem;
+    padding:0;
+    
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top:15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+   
+
+
